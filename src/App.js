@@ -1,11 +1,10 @@
 import { render } from "react-dom";
 import { StrictMode } from "react";
+import SearchParams from "./SearchParams";
 
 const App = () => {
   return (
-    <div>
-      <h1>React App</h1>
-    </div>
+    <SearchParams />
   );
 };
 
